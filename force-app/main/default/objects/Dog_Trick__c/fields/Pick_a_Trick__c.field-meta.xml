@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pick_a_Trick__c</fullName>
+    <description>Pick a trick and track your dog&apos;s progress.</description>
+    <inlineHelpText>Select a trick to track.</inlineHelpText>
+    <label>Pick a Trick</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sit</fullName>
+                <default>false</default>
+                <label>Sit</label>
+            </value>
+            <value>
+                <fullName>Stay</fullName>
+                <default>false</default>
+                <label>Stay</label>
+            </value>
+            <value>
+                <fullName>Lay down</fullName>
+                <default>false</default>
+                <label>Lay down</label>
+            </value>
+            <value>
+                <fullName>Shake</fullName>
+                <default>false</default>
+                <label>Shake</label>
+            </value>
+            <value>
+                <fullName>Twirl</fullName>
+                <default>false</default>
+                <label>Twirl</label>
+            </value>
+            <value>
+                <fullName>Roll over</fullName>
+                <default>false</default>
+                <label>Roll over</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Details__c</fullName>
+    <description>Describe how your pup did on this trick and what you could work on next time.</description>
+    <inlineHelpText>Enter some notes about your dog&apos;s paw-gress.</inlineHelpText>
+    <label>De-tails</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>
