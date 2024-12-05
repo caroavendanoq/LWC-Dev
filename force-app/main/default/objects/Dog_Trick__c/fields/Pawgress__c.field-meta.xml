@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pawgress__c</fullName>
+    <description>Rate your pawgress on this trick.</description>
+    <inlineHelpText>Rate your pawgress on this trick.</inlineHelpText>
+    <label>Howl you paw-gressing?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - A little ruff!</fullName>
+                <default>false</default>
+                <label>1 - Still a little ruff!</label>
+            </value>
+            <value>
+                <fullName>2 - Woof woof!</fullName>
+                <default>false</default>
+                <label>2 - Woof woof!</label>
+            </value>
+            <value>
+                <fullName>3 - Good dog!</fullName>
+                <default>false</default>
+                <label>3 - Having a ball!</label>
+            </value>
+            <value>
+                <fullName>4 - Fur real!</fullName>
+                <default>false</default>
+                <label>4 - Fur real! I got this!</label>
+            </value>
+            <value>
+                <fullName>5 - Pawsitively Pawsome!</fullName>
+                <default>false</default>
+                <label>5 - Pawsitively pawsome!</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
